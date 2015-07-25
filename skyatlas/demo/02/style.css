@@ -1,0 +1,706 @@
+@import url("http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700");
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,700,300");
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden
+    }
+
+#wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Dosis", sans-serif;
+    color: #333;
+    background: url(images/bg-img1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover
+    }
+
+#header-area {
+    width: 100%;
+    padding: 2% 0 15%;
+    background: rgba(0, 0, 0, 0.5)
+    }
+
+#header-area .logo {
+    width: 14%;
+    float: right;
+    margin-top: 9px;
+    }
+
+#header-area .logo a {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff
+    }
+
+#header-area .logo .fa {
+    border: 2px solid #E75854;
+    padding: 8px 5px 9px 10px;
+    margin-right: 10px;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+
+#header-area .logo:hover .fa{
+    border-color: #fff;
+    color: #E75854;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+#header-area .header {
+    text-align: center
+    }
+
+#header-area .header h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1em 0 .5em;
+    color: #fff
+    }
+
+#header-area .header span {
+    color: #E75854
+    }
+
+#coming_soon {
+    width: 100%;
+    text-align: center
+    }
+
+#coming_soon .count {
+    margin: 10px auto
+    }
+
+#coming_soon .count .box {
+    text-align: center;
+    display: inline-block;
+    margin: 20px
+    }
+
+#coming_soon .count .first {
+    margin: 0 0 0 90px
+    }
+
+#coming_soon .count .circle {
+    text-align: center;
+    margin-bottom: 8px
+    }
+
+#coming_soon .count .circle span {
+    height: 98px;
+    width: 98px;
+    padding-top: 25px;
+    -moz-border-radius: 200px 200px 200px 0;
+    -webkit-border-radius: 200px 200px 200px 0;
+    border-radius: 200px 200px 200px 0;
+    color: #E75854;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 33px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.8);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+    }
+
+#coming_soon .count p {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600
+    }
+
+.footer {
+    width: 100%;
+    margin-top: 40px
+    }
+
+.footer .subscribe {
+    text-align: center;
+    padding: 0
+    }
+
+.footer .subscribe li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px
+    }
+
+.footer .subscribe li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: 1px solid #E75854;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease
+    }
+
+.footer .subscribe li:last-child a, .footer .subscribe li a:hover {
+    background-color: #E75854;
+    border-color: #E75854;
+    -moz-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease
+    }
+
+/*subscribe-wrapper*/
+.subscribe-wrapper .btn {
+    padding: 9px 36px;
+    font-weight: 700;
+    text-transform: uppercase
+    }
+
+/*tt-modal end*/
+.social-area .social-links {
+    padding: 0;
+    margin: 0 0 60px;
+    text-align: center
+    }
+
+.social-area .social-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px
+    }
+
+.social-area .social-links li:first-child {
+    margin-left: 0
+    }
+
+.social-area .social-links li a {
+    text-decoration: none
+    }
+
+.social-area .social-links li a .fa {
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 18px;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+.social-area .social-links li a .fa-facebook{
+    padding: 10px 13px;
+}
+.social-area .social-links li a .fa-instagram{
+    padding: 10px 11px;
+}
+.social-area .social-links li a .fa-linkedin{
+    padding: 10px 12px;
+}
+
+.social-area .social-links li a .fa:hover {
+    background-color: #E75854;
+    color: #fff;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    border: 1px solid #E75854
+    }
+
+#service-area {
+    width: 100%;
+    background: url(images/bg-img2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover
+    }
+
+.service-area-wrapper {
+    padding: 3% 0 15%;
+    background: rgba(0, 0, 0, 0.5)
+    }
+
+#service-area .service-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    margin: 2% 0;
+    }
+
+#service-area .service-content h1 span {
+    color: #E75854
+    }
+
+#service-area .service-content .single {
+    width: 90%;
+    padding: 20px 10px 30px;
+    margin: 20px 15px;
+    list-style: none;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+#service-area .service-content .single .fa {
+    color: #fff;
+    padding: 30px;
+    border: 1px solid #E75854;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+
+#service-area .service-content .single h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    }
+
+#service-area .service-content .single p {
+    padding: 10px 5px;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    }
+
+#service-area .service-content .single a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #E75854;
+    border-bottom: 2px solid #fff;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+#service-area .service-content .single:hover{
+    background: rgba(231, 88, 84, 0.4);
+}
+#service-area .service-content .single:hover .fa{
+    background-color: #fff;
+    border-color: #fff;
+    color: #E75854;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+
+}
+#service-area .service-content .single:hover a {
+    color: #E75854;
+    background-color: #fff;
+    border-color: #E75854;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s
+    }
+
+#service-area .owl-theme .owl-controls{
+    margin-top: 30px;
+}
+
+#about-area {
+    width: 100%;
+    background: url(images/bg-img3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff
+    }
+
+#about-area .about-area-wrapper {
+    padding: 3% 0 15%;
+    background: rgba(0, 0, 0, 0.5)
+    }
+#about-area h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 2% 0;
+    }
+
+#about-area h1 span {
+    color: #E75854
+    }
+
+#about-area .single {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent
+    }
+#about-area .single h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E75854;
+    margin-bottom: 20px;
+}
+#about-area .single p {
+    line-height: 1.6em;
+    text-align: justify;
+    font-size: 18px
+    }
+#about-area .single img{
+    width: 100%;
+    padding-top: 20px;
+}
+#contact-area {
+    width: 100%;
+    min-height: 100%;
+    padding: 3% 0 15%;
+    background: rgba(0, 0, 0, 0.5)
+    }
+
+#contact-area .header h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2% 0;
+    color: #fff
+    }
+
+#contact-area .header h1 span {
+    color: #E75854
+    }
+
+#contact-area .header h2 {
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #fff
+    }
+
+#contact-area .adress {
+    width: 100%;
+    padding: 10px 0
+    }
+
+#contact-area .adress li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 10px 0;
+    text-transform: uppercase
+    }
+
+#contact-area .adress li .fa {
+    margin-right: 5px;
+    font-size: 14px;
+    color: #E75854;
+    text-align: center;
+    }
+
+#contact-area .adress li p {
+    width: 100%;
+    color: #fff
+    }
+
+#contact-area .adress li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #E75854
+    }
+
+#contact-area .adress li a {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    }
+
+#contact-area .contact form {
+    padding: 10px 0
+    }
+
+#contact-area .footer {
+    margin-bottom: 20px
+    }
+
+#contact-area .contact .pt-input-box .fa {
+    width: 47px;
+    height: 47px;
+    padding: 16px;
+    color: #999;
+    border: 1px solid #999;
+    margin-right: 10px;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+    }
+
+#contact-area .contact .pt-input-box .fa:hover {
+    background-color: #E75854;
+    border-color: #E75854;
+    color: #fff;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+    }
+
+#contact-area .contact .pt-input-box input {
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #999;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+    }
+
+#contact-area .contact .pt-input-box input:focus, #contact-area .contact .pt-input-box input:hover, #contact-area .contact .pt-input-box #message:focus, #contact-area .contact .pt-input-box #message:hover {
+    border-color: #E75854;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+    }
+
+#contact-area .contact .pt-input-box #message {
+    width: 100%;
+    height: 190px;
+    padding: 5px;
+    margin: 0 0 20px;
+    background: transparent;
+    border: 1px solid #999;
+    color: #fff;
+    font-size: 16px;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+    }
+
+#contact-area .btn-primary {
+    padding: 7px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: #E75854;
+    border: 1px solid #E75854;
+    border-radius: 0;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    float: right
+    }
+
+#contact-area .btn-primary.active, #contact-area .btn-primary.focus, #contact-area .btn-primary:active, #contact-area .btn-primary:focus, #contact-area .btn-primary:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #E75854;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease
+    }
+
+/** Start responsive coding**/
+/*      Default Layout: 992px. 
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    body {
+        width: 100%
+        }
+        #header-area .logo{
+            width: 25%;
+            margin-top: 20px;
+        }
+        #header-area .header h1{
+            font-size: 4em;
+            margin: 2em 0 0.5em;
+        }
+    #service-area .service-content .services li {
+        margin: 20px 10px
+        }
+    #contact-area .adress li p {
+        margin-top: -20px
+        }
+    #about-area .single .view {
+        margin: 35px auto
+        }
+    }
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        width: 100%
+        }
+    .stop-scrolling {
+        overflow: inherit
+        }
+    .col-md-12 {
+        padding-left: 0
+        }
+        #header-area .logo{
+            width: 25%;
+            margin-top: 20px;
+        }
+        #header-area .header h1{
+            font-size: 4em;
+            margin: 2em 0 0.5em;
+        }
+    #service-area .service-content .services li {
+        width: 29%;
+        padding: 20px 10px 25px;
+        margin: 20px 14px
+        }
+
+    #contact-area .adress li p {
+        float: none
+        }
+    #contact-area .contact .pt-input-box input {
+        width: 72%;
+        height: 41px;
+        }
+
+        #contact-area .contact .pt-input-box .fa{
+            height: 44px;
+        }
+    }
+/*      Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 479px) {
+    body {
+        width: 100%
+        }
+    .stop-scrolling {
+        overflow: inherit
+        }
+    #header-area .logo{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    #header-area .logo .fa {
+        font-size: 20px
+        }
+    #header-area .header h1 {
+        font-size: 24px;
+        margin-top: 4em;
+        }
+    #coming_soon .count .box{
+            margin: 14px;
+        }
+    #coming_soon .count .circle span {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding-top: 6px;
+        margin-bottom: 5px
+        }
+    #coming_soon .count p {
+        font-size: 12px
+        }
+    #service-area .service-content h1, #about-area .top-content h1, #contact-area .header h1 {
+        font-size: 30px
+        }
+    #about-area .top-content p {
+        font-size: 16px
+        }
+    #service-area {
+        padding: 0
+        }
+    #service-area .service-content .services li {
+        width: 100%;
+        margin: 20px 0
+        }
+
+    #contact-area .contact .pt-input-box input{
+        width: 76%
+        }
+    .footer .subscribe li a {
+        padding: 10px 15px
+        }
+    }
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        width: 100%
+        }
+    .stop-scrolling {
+        overflow: inherit
+        }
+    #header-area .logo{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0;
+        }
+    #header-area .header h1 {
+        font-size: 34px;
+        margin-top: 4em;
+        }
+        #coming_soon .count .box{
+            margin: 10px;
+        }
+    #coming_soon .count .circle span {
+        width: 90px;
+        height: 90px;
+        padding-top: 23px;
+        font-size: 30px
+        }
+    .subscribe-area .contact form input {
+        width: 60%;
+        margin-right: 10px
+        }
+    #service-area .service-content .services li {
+        width: 100%;
+        margin: 20px auto
+        }
+    #contact-area .adress li p {
+        margin-top: 0
+        }
+    }
